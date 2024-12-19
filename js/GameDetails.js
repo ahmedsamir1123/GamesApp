@@ -55,12 +55,12 @@ function showDetails() {
 
 
         temp += `
-        
-       <div class="col-md-3">
-                    <img src="${thumbnail}" class="w-100" alt="">
+        <div class = "row">
+       <div class="col-md-4">
+                    <img src="${thumbnail}" class="" alt="">
 
                 </div>
-                <div class="col-md-7 text-white mx-4">
+                <div class="col-md-6 text-white mx-4">
                     <h1>Title: ${title}</h1>
                     <h6>Category: <span class="border border-black  rounded-5  bg-info text-black  "><span class="m-2">
                                 ${genre} </span></span> </h6>
@@ -75,6 +75,7 @@ function showDetails() {
                         Show Game
                     </a></button>
 
+                </div>
                 </div>
   
   `
