@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <section class="d-block" id="ShowedGames">
+        <header class="headerHeight">
+            <img src="images/wraper.png" class="w-100" alt="">
+        </header>
+<div class="navbar-fixed w-100 ">
+        <div class="container text-center ">
+            <nav class="navbar navbar-expand-lg w-100 rounded-5  px-4 z-3 navBackground text-white ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand text-white" href="#"><img src="images/logo-sm.png" class="w-25" alt="">
+                        <span> Game Reviews</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse small" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small" id="selector">
+                            <li class="nav-item ">
+                                <a class="nav-link active text-white typelistt" aria-current="page" href="#"
+                                    value="mmorpg">mmorpg</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white typelistt" href="#" value="shooter">shooter</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white typelistt" href="#" value="sailing">sailing</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white typelistt" href="#" value="permadeath">permadeath</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white typelistt" href="#" value="superhero">superhero</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white typelistt" href="#" value="pixel">pixel</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+        <br><br><br>
+        <section class="d-Games mt-5">
+            <div class="container ">
+                <div class="row text-white" id="myRow">
+
+                </div>
+
+            </div>
+        </section>
+
+    </section>
+    <section class="d-none" id="Games-details">
+
+
+        <div class="container text-center ">
+            <nav class="navbar navbar-expand-lg w-100 rounded-5 py-3 px-4 z-3 bg-transparent text-white ">
+                <div class="container-fluid ">
+                    <span> Details Game </span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse small" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small">
+
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-close btn-close-white" onclick="closeElem()" href="#"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <section class="d-Games-data mt-5">
+            <div class="container d-flex justify-content-center g-4 " id="myRoww">
+
+
+            </div>
+        </section>
+
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/GameDetails.js"></script>
+</body>
+
+</html>

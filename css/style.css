@@ -1,0 +1,27 @@
+header img {
+    max-height: 30vh;
+    object-fit: cover;
+
+}
+
+body{
+background: #272b30;
+
+}
+
+.navBackground{
+    background: #3b4c7b;
+}
+.navbar-fixed{
+    position: relative;
+}
+
+.heightShow{
+    height: 400px;
+}
+
+.descheight{
+
+    height: 100px;
+
+}
